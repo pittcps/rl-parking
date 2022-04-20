@@ -1,3 +1,5 @@
+![Alt text](/img/cloud_design.JPG?raw=true)
+
 # Tensorflow implementation of Energy-efficient parking analytics system using deep reinforcement learning
 
 By Yoones Rezaei, Stephen Lee, Daniel Mosse from University of Pittsburgh
