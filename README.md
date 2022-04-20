@@ -1,4 +1,4 @@
-![alt text](./img/solar_design.jpg?raw=true)
+![Alt text](/img/solar_desgin.JPG?raw=true)
 
 # Solar-powered Parking Analytics System using Deep Reinforcement Learning
 
@@ -8,7 +8,7 @@ By Yoones Rezaei, Talha Khan, Stephen Lee, Daniel Mosse from University of Pitts
 
 If you find our paper helpful in your work, please consider citing:
 
-'''
+```
 @inproceedings{rezaei2021energy,
   title={Energy-efficient parking analytics system using deep reinforcement learning},
   author={Rezaei, Yoones and Lee, Stephen and Mosse, Daniel},
@@ -16,7 +16,7 @@ If you find our paper helpful in your work, please consider citing:
   pages={81--90},
   year={2021}
 }
-'''
+```
 
 # Introduction
 
@@ -30,13 +30,13 @@ The old version of the code for the original paper can be found in tensorflow_so
 The updated version of our code uses Python 3,  Pytorch, and the [PFRL](https://github.com/pfnet/pfrl) library and is tested with an Nvidia RTX 3090 GPU. 
 The list of the requirements to run this code are:
 
-PFRL 0.3.0
-torch 1.9.0+cu111
-gym 0.22.0
-[gin-config](https://github.com/google/gin-config) 0.3.0
+- PFRL 0.3.0
+- torch 1.9.0+cu111
+- gym 0.22.0
+- [gin-config](https://github.com/google/gin-config) 0.3.0
 
 # Data
-We use the parking dataset from [data.melbourne.vic.gov.au](https://data.melbourne.vic.gov.au/Transport/Parking-bay-arrivals-and-departures-2014/mq3i-cbxd) which has been collected from central business district in Melbourne, Australia. In addition we use the [AusGrid](https://www.ausgrid.com.au/Industry/Our-Research/Data-to-share/Solar-home-electricity-data) solar data, collected by [Ratnam et al.](https://www.tandfonline.com/doi/abs/10.1080/14786451.2015.1100196?journalCode=gsol20),and collect weather data using [DarkSky](https://darksky.net/forecast/40.7127,-74.0059/us12/en) API. You can download the processed version of the data from [Here](https://drive.google.com/file/d/1oajRsAdkDz6xw5kzT0p4oqrN3O60N4Yw/view?usp=sharing) which can be used directly with out model.
+We use the parking dataset from [data.melbourne.vic.gov.au](https://data.melbourne.vic.gov.au/Transport/Parking-bay-arrivals-and-departures-2014/mq3i-cbxd) which has been collected from central business district in Melbourne, Australia. In addition we use the [AusGrid](https://www.ausgrid.com.au/Industry/Our-Research/Data-to-share/Solar-home-electricity-data) solar data, collected by [Ratnam et al.](https://www.tandfonline.com/doi/abs/10.1080/14786451.2015.1100196?journalCode=gsol20) and collect weather data using [DarkSky](https://darksky.net/forecast/40.7127,-74.0059/us12/en) API. You can download the processed version of the data from [Here](https://drive.google.com/file/d/1oajRsAdkDz6xw5kzT0p4oqrN3O60N4Yw/view?usp=sharing) which can be used directly with out model.
 
 # Usage
 
@@ -45,19 +45,19 @@ Next download the data and extract it into your project directory.
 
 To train the model from scratch, from the pytorch_source directory run the following command: 
 
-'''
+```
 python train.py --config="dir/to/configFile"
-'''
+```
 
 To continue the training from an existing model, from the pytorch_source directory run the following command: 
 
-'''
+```
 python train.py --config="dir/to/configFile --ckpt="dir/to/model"
-'''
+```
 
 To test the model, from the pytorch_source directory run the following command:  
-'''
+```
 python test.py --config="dir/to/configFile --ckpt="dir/to/model"
-'''
+```
 
 
