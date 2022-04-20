@@ -43,21 +43,21 @@ We use the parking dataset from [data.melbourne.vic.gov.au](https://data.melbour
 First set up desired settings in the config file similar to [default.gin](https://github.com/pittcps/rl-parking/blob/main/configs/default.gin).
 Next download the data and extract it into your project directory.
 
-To train the model from scratch, from the pytorch_source directory run the following command: 
+To train the model from scratch, from the pytorch_source directory, run the following command: 
 
 ```
 python train.py --config="dir/to/configFile"
 ```
 
-To continue the training from an existing model, from the pytorch_source directory run the following command: 
+To continue the training from an existing model, from the pytorch_source directory, run the following command: 
 
 ```
-python train.py --config="dir/to/configFile --ckpt="dir/to/model"
+python train.py --config="dir/to/configFile" --ckpt="dir/to/model"
 ```
 
-To test the model, from the pytorch_source directory run the following command:  
+To test the model, from the pytorch_source directory, run the following command:  
 ```
-python test.py --config="dir/to/configFile --ckpt="dir/to/model"
+python test.py --config="dir/to/configFile" --ckpt="dir/to/model"
 ```
 
 
