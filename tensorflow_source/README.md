@@ -6,7 +6,7 @@ By Yoones Rezaei, Stephen Lee, Daniel Mosse from University of Pittsburgh
 
 If you find our paper helpful in your work, please consider citing:
 
-'''
+```
 @inproceedings{rezaei2021energy,
   title={Energy-efficient parking analytics system using deep reinforcement learning},
   author={Rezaei, Yoones and Lee, Stephen and Mosse, Daniel},
@@ -14,7 +14,7 @@ If you find our paper helpful in your work, please consider citing:
   pages={81--90},
   year={2021}
 }
-'''
+```
 
 # Introduction
 
