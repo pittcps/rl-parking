@@ -1,4 +1,4 @@
-![alt text](https://github.com/pittcps/rl-parking/img/solar_design.jpg?raw=true)
+![alt text](./img/solar_design.jpg?raw=true)
 
 # Solar-powered Parking Analytics System using Deep Reinforcement Learning
 
@@ -36,8 +36,7 @@ gym 0.22.0
 [gin-config](https://github.com/google/gin-config) 0.3.0
 
 # Data
-
-
+We use the parking dataset from [data.melbourne.vic.gov.au](https://data.melbourne.vic.gov.au/Transport/Parking-bay-arrivals-and-departures-2014/mq3i-cbxd) which has been collected from central business district in Melbourne, Australia. In addition we use the [AusGrid](https://www.ausgrid.com.au/Industry/Our-Research/Data-to-share/Solar-home-electricity-data) solar data, collected by [Ratnam et al.](https://www.tandfonline.com/doi/abs/10.1080/14786451.2015.1100196?journalCode=gsol20),and collect weather data using [DarkSky](https://darksky.net/forecast/40.7127,-74.0059/us12/en) API. You can download the processed version of the data from [Here](https://drive.google.com/file/d/1oajRsAdkDz6xw5kzT0p4oqrN3O60N4Yw/view?usp=sharing) which can be used directly with out model.
 
 # Usage
 
