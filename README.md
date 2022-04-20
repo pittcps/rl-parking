@@ -40,7 +40,7 @@ We use the parking dataset from [data.melbourne.vic.gov.au](https://data.melbour
 
 # Usage
 
-First set up desired settings in the config file similar to [default.gin](https://github.com/pittcps/rl-parking/configs/default.gin).
+First set up desired settings in the config file similar to [default.gin](https://github.com/pittcps/rl-parking/blob/main/configs/default.gin).
 Next download the data and extract it into your project directory.
 
 To train the model from scratch, from the pytorch_source directory run the following command: 
