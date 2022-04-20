@@ -1,0 +1,13 @@
+set_hyper_param.street_list = [1090, 617, 915, 1097, 1400, 1398, 1346, 178, 1383, 655]
+set_hyper_param.train_end =  259200  #180 * 24 * 60
+set_hyper_param.validation_end = 388800  #270 * 24 * 60
+set_hyper_param.episode_max_steps = 20160 #24 * 60 * 14
+set_hyper_param.lr = 0.0000625
+set_hyper_param.batch_size = 8
+set_hyper_param.episodes = 250
+set_hyper_param.mem_size = 10000
+set_hyper_param.is_tensorflow = 0 # for pytorch version it should be always 0 but for the tensorflow version it should be 1
+set_hyper_param.gpu_id = 0
+set_hyper_param.parking_data_dir =  "..\data"
+set_hyper_param.weather_data_dir = "..\data"
+set_hyper_param.mode = 'solar'  # possible options: ['solar', 'cloud']
